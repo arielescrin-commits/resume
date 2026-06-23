@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ariel Morgadez Escrin, CSP | Professional Portfolio</title>
+    <style>
+        :root {
+            --primary: #1a365d;
+            --secondary: #2b6cb0;
+            --dark: #2d3748;
+            --light: #f7fafc;
+            --accent: #d69e2e;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        body { background-color: var(--light); color: var(--dark); line-height: 1.6; }
+        header { background: linear-gradient(135deg, var(--primary), var(--secondary)); color: white; padding: 40px 20px; text-align: center; border-bottom: 5px solid var(--accent); }
+        header h1 { font-size: 2.5rem; margin-bottom: 10px; letter-spacing: 1px; }
+        header p { font-size: 1.1rem; opacity: 0.9; margin-bottom: 5px; }
+        .container { max-width: 900px; margin: 30px auto; padding: 0 20px; }
+        section { background: white; padding: 30px; margin-bottom: 25px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
+        h2 { color: var(--primary); font-size: 1.5rem; margin-bottom: 15px; border-left: 4px solid var(--accent); padding-left: 10px; text-transform: uppercase; }
+        .objective-text { font-style: italic; font-size: 1.1rem; color: #4a5568; }
+        .job { margin-bottom: 20px; padding-bottom: 15px; border-bottom: 1px solid #e2e8f0; }
+        .job:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+        .job-title { font-weight: bold; font-size: 1.2rem; color: var(--secondary); }
+        .company { font-weight: 600; color: var(--dark); }
+        .duration { font-size: 0.9rem; color: #718096; margin-bottom: 8px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; }
+        .grid-item { background: var(--light); padding: 10px 15px; border-radius: 5px; font-weight: 500; border-left: 3px solid var(--secondary); }
+        .contact-info a { color: white; text-decoration: underline; }
+        .ref-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+        .ref-card { background: var(--light); padding: 15px; border-radius: 6px; border-top: 3px solid var(--primary); }
+        @media (max-width: 600px) { header h1 { font-size: 2rem; } section { padding: 20px; } }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>ARIEL MORGADEZ ESCRIN, CSP</h1>
+        <p>Certified Security Professional | Security Officer</p>
+        <p class="contact-info">
+            📍 Poblacion, San Luis, Agusan del Sur | 📱 09770334001 | ✉️ <a href="mailto:arielescrin63@gmail.com">arielescrin63@gmail.com</a>
+        </p>
+    </header>
+
+    <div class="container">
+        <section id="objective">
+            <h2>Career Objective</h2>
+            <p class="objective-text">"I would like to work as Security personnel for a company where I can show the best of my knowledge, skills, and experience."</p>
+        </section>
+
+        <section id="experience">
+            <h2>Working Experience</h2>
+            <div class="job">
+                <div class="job-title">Security Officer</div>
+                <div class="company">Hackett Security Agency (Megaworld Corp. Client)</div>
+                <div class="duration">2025 - Present | Contact: +639171659255</div>
+            </div>
+            <div class="job">
+                <div class="job-title">Security Officer</div>
+                <div class="company">Deltamike Security Inc. (Megaworld Corp. Client)</div>
+                <div class="duration">2022 - 2025 | Contact: +639171074196</div>
+            </div>
+            <div class="job">
+                <div class="job-title">Security Guard</div>
+                <div class="company">Grandeur Security Services Corporation (Megaworld Corp. Client)</div>
+                <div class="duration">2019 - 2021 | Contact: (02) 8723 0227</div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Professional Skills</h2>
+            <div class="grid">
+                <div class="grid-item">Emergency Response</div>
+                <div class="grid-item">Crowd Control</div>
+                <div class="grid-item">Certified First Aid</div>
+                <div class="grid-item">Critical Thinking</div>
+                <div class="grid-item">Customer Service</div>
+                <div class="grid-item">Active Listening</div>
+                <div class="grid-item">Computer Troubleshooting</div>
+                <div class="grid-item">Basic Programming</div>
+            </div>
+        </section>
+
+        <section id="certificates">
+            <h2>Trainings & Certifications</h2>
+            <div class="grid">
+                <div class="grid-item">Certified Security Professional (CSP)</div>
+                <div class="grid-item">Basic Life Support (Red Cross PH)</div>
+                <div class="grid-item">STCW & SDSD Certified</div>
+                <div class="grid-item">Fire Prevention & Fighting (FPFF)</div>
+                <div class="grid-item">Personal Survival Techniques (PST)</div>
+                <div class="grid-item">Basic X-ray Operation</div>
+            </div>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <div class="job">
+                <div class="job-title">Diploma in Information Technology</div>
+                <div class="company">Systems Technology Institute (STI)</div>
+                <div class="duration">San Francisco, Agusan del Sur (2003 - 2005)</div>
+                <p style="margin-top: 5px; font-size: 0.95rem; color: #4a5568;">Specialized training in basic computer troubleshooting, basic programming, presentations, and Microsoft Office applications.</p>
+            </div>
+        </section>
+
+        <section id="references">
+            <h2>Character References</h2>
+            <div class="ref-grid">
+                <div class="ref-card">
+                    <strong>Engr. Julius S. Rueco</strong><br>
+                    Building Engineer / Client-Megaworld<br>
+                    📞 +639365823956
+                </div>
+                <div class="ref-card">
+                    <strong>Engr. Nephtali Bayeta</strong><br>
+                    Building Engineer / Client-Megaworld<br>
+                    📞 +639166692418
+                </div>
+            </div>
+        </section>
+    </div>
+
+</body>
+</html>
